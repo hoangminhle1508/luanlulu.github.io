@@ -14,8 +14,8 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'Hế lu gái :)))',
-        text: 'Chiều ni em rảnh nên em làm cái này để hỏi chị...',
+        title: 'Hế loooo Gái :v ',
+        text: 'Chiều hôm qua em làm cái ni mà giờ mới gửi cho chị được để hỏi chị...',
         imageUrl: 'img/Luanlulu.jpg',
         imageWidth: 300,
         imageHeight: 300,
@@ -109,23 +109,23 @@ $('#yes').click(function() {
               no-repeat
             `,
         showCancelButton: true,
-        cancelButtonText: "Chị bực mình chưa :<<",
+        cancelButtonText: "Chị bực mình chưa :<",
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
         cancelButtonColor: '#f6cd61',
-        confirmButtonText: 'Chưa có thật thì bấm vào đây'
+        confirmButtonText: 'Thật sự chưa có thì bấm vào đây'
     }).then((result) => {
         if (result.value) {
             Swal.fire({
                 width: 900,
-                confirmButtonText: 'Năn nỉ nên sẽ đi cùng',
+                confirmButtonText: 'Được thì inb cho em hi',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'Ừ hư, biết rồi nghe',
-                text: "Đi Đà Lạt với em đi, plzzzzz",
+                title: 'Ừ hư, hỏi vậy thôi chứ thật ra em biết rồi',
+                text: " Tháng tư này đi Đà Lạt với em đi, plzzzzz",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'https://www.facebook.com/hoangleosociu/videos/vb.100007032336697/2591628664414853/?type=2&theater';
+                    window.location = 'https://www.facebook.com/hoangleosociu';
                   }
             })
         }
